@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name: Hoverboard Plugin Template
-Version: 0.0.1b
+Version: 1.0.0
 Plugin URI: https://bitbucket.org/copterlabs/hoverboard-plugin-template
 Description: This plugin doesn't do anything. It's a template for future Hoverboard plugins
 Author: Copter Labs
@@ -38,7 +38,7 @@ if (!defined('DB_NAME')) {
 define('HB_PLUGIN_PATH', plugin_dir_path(__FILE__));
 
 // Sets the plugin version
-define('HB_PLUGIN_VERSION', '0.0.1a');
+define('HB_PLUGIN_VERSION', '1.0.0');
 
 // Checks if the plugin is being loaded in the admin or public view
 if (is_admin()) {
